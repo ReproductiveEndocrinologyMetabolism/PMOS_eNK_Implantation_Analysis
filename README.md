@@ -97,14 +97,7 @@ mkdir -p output/Publication_Figures
 
 ## 📋 Analysis Workflow
 
-### Step 1: Sample ID Anonymization (Optional)
-```r
-source("scripts/00_Rename_Sample_ID.R")
-```
-- Replaces original sample identifiers with anonymous IDs
-- Protects sample confidentiality
-
-### Step 2: Data Preprocessing and Integration
+### Step 1: Data Preprocessing and Integration
 ```r
 source("scripts/01_Preprocessing_With_Integration.R")
 ```
