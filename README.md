@@ -1,10 +1,9 @@
-# PCOS eNK Implantation Analysis
-
-## Implantation Failure Linked to Altered Uterine NK Cells in PCOS-like Mice
+# PMOS eNK Implantation Analysis
+## Implantation failure linked to altered uterine NK cells in PMOS-like mice
 
 This repository contains the analysis code and visualization scripts for human single-nuclei RNA-seq data examining uterine natural killer (uNK) cells, also referred to as endometrial NK (eNK) cells and TGF-beta signalling.
 
-### 📊 Study Overview
+### Study Overview
 
 **Research Question:** How do endometrial NK express TGF-beta signalling gene markers?
 
@@ -12,48 +11,13 @@ This repository contains the analysis code and visualization scripts for human s
 - Three distinct eNK cell populations identified (eNK 1, eNK 2, eNK 3)
 - TGF-β signaling pathway expression across eNK subtypes
 
-### 🔬 Methodology
+### Summary of Methodology
 
 - **Technology:** Single-cell RNA sequencing (scRNA-seq)
 - **Cell Type:** Endometrial Natural Killer (eNK) cells
 - **Samples:** Control vs PCOS groups
 - **Integration Method:** Canonical Correlation Analysis (CCA) with Seurat v5
 - **Analysis Framework:** R (Seurat, ggplot2, patchwork)
-
----
-
-## 📁 Repository Structure
-
-```
-PCOS-uNK-implantation-analysis/
-│
-├── README.md                          # This file
-├── LICENSE                            # License information
-│
-├── scripts/                           # Analysis scripts
-│   ├── 01_Preprocessing_With_Integration.R  # QC, filtering, and integration
-│   └── 02_Plotting.R                 # Publication-ready visualizations
-│
-├── bin/                              # Helper functions
-│   ├── Seurat_preprocessing.R        # QC and preprocessing utilities
-│   └── Plotting_tools.R              # Plotting helper functions
-│
-├── data/                             # Data directory (not tracked)
-│   ├── Core_seurat_objects/          # Original Seurat objects
-│   └── Subset_seurat_objects/        # Processed and integrated objects
-│
-├── output/                           # Analysis outputs
-│   ├── 0_Preprocessing/              # QC reports and metrics
-│   └── Publication_Figures/          # Final publication-ready figures
-│
-└── environment/                      # Environment specifications
-    ├── requirements.R                # R package versions
-    └── sessionInfo.txt               # R session information
-```
-
----
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
