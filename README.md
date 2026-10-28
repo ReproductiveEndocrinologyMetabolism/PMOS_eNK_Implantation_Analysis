@@ -1,3 +1,8 @@
+README
+Author: Gustaw Eriksson
+Date: 2026-01-21
+Contact: gustaw.eriksson@ki.se
+
 # Single-nuclei eNK-TGFβ Analysis
 
 Single-nuclei RNA-seq pipeline for endometrial NK (eNK) cells in the PMOS endometrium project: subsetting and integration of eNK cells from the endometrial immune atlas (Control vs PMOS), followed by publication figures focused on eNK subset markers and TGF-β signalling.
